@@ -108,3 +108,31 @@ h3 {
 }
 
 /* end of the HEADER */
+
+
+.title-name {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.about-us-main {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.about-us {
+	flex-basis: 300px;
+	margin: 3%;
+}
+
+.about-us img {
+	height: 75px;
+}
+
+.about-us h4 {
+	margin: 10px 0;
+}
+
+/* end of "about-us" section */
