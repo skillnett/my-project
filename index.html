@@ -5,254 +5,286 @@
 	<title>my project</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/reset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 </head>
 <body>
-	<header id="main">
-		<div class="container">
-			<nav>
-				<ul>
-					<li><a href="#main">головна</a></li>
-					<li><a href="#about-us">про нас</a></li>
-					<li><a href="#how-works">як це працює</a></li>
-					<li><a href="#our-clients">відгуки</a></li>
-					<li><a href="#found-us">як знайти</a></li>
-				</ul>
-			</nav>
-			<div class="main">
-				<div class="content-top">
+	<div id="particles-js"></div>
+	<div id="page-wrapper">
+		<header id="home">
+			<div class="wrapper">
+				<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link smooth" href="#home">ГОЛОВНА</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth" href="#about-us">ПРО НАС</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth" href="#how-works">ЯК ЦЕ ПРАЦЮЄ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth" href="#our-clients">ВІДГУКИ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link smooth" href="#found-us">ЯК ЗНАЙТИ</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header-content">
 					<div class="title">
 						<h1>УДОСКОНАЛЮЙТЕ СВІЙ БІЗНЕС</h1>
 						<h3>ВИКОРИСТОВУЙТЕ НАШ ДОСВІД ДЛЯ ВАШОГО УСПІХУ</h3>
 					</div>
-					<div class="main-form">
-						<p>Ми зв'яжемось з Вами</p>
-						<form action="https://formspree.io/r.nemyrka@gmail.com" method="POST">
-							<input placeholder="Ваше ім'я" type="text" name="client-name" required>
-							<input placeholder="Ел.адреса" type="email" name="client-email" required>
-							<input placeholder="Номер телефону" type="tel" name="client-tel" required>
-							<div class="button">
-							<button><a href="#">Надіслати</a></button>	
-							</div>
-						</form>
+					<div class="wrapper-main-form">
+						<div class="main-form">
+							<p>Ми зв'яжемось з Вами</p>
+							<form action="https://formspree.io/r.nemyrka@gmail.com" method="POST">
+								<input placeholder="Ваше ім'я" type="text" name="client-name" required>
+								<input placeholder="Ел.адреса" type="email" name="client-email" required>
+								<input placeholder="Номер телефону" type="tel" name="client-tel" required>
+								<div class="button">
+								<button class="button-css"><a href="#">Надіслати</a></button>	
+								</div>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-	
-	<main class="container">
-		<section id="about-us">
-			<div class="title-name">
-				<h2>ПРО НАС</h2>
-				<h3>ДЕТАЛЬНІША ІНФОРМАЦІЯ ПРО КОМПАНІЮ</h3>
-			</div>
-			<div class="line">
-				<div class="part-1"></div>
-				<div class="part-2"></div>
-			</div>
-			<div class="about-us">
-				<article>
-					<img src="img/circle.png" alt="діаграма">
-					<h4>Маркетингова автоматизація</h4>
-					<p>Автоматизація ваших систем для збільшення продаж</p>
-				</article>
-				<article>
-					<img src="img/cap.png" alt="кепка">
-					<h4>Бізнес-рішення</h4>
-					<p>Ми пропонуєм інтелектуальні рішення для вирішення ваших проблем</p>
-				</article>
-				<article>
-					<img src="img/dollar.png" alt="долар">
-					<h4>Збільшення Вашого доходу</h4>
-					<p>Швидке зростання Вашого прибутку</p>
-				</article>
-				<article>
-					<img src="img/rocket.png" alt="ракета">
-					<h4>Маркетингові стратегії</h4>
-					<p>Впровадження перевірених стратегій маркетинг-плану</p>
-				</article>
-			</div>
-		</section>
+		</header>
 		
-		<section id="our-feature">
-			<div class="feature">
-				<h2>ВИВЕДІТЬ СВІЙ БІЗНЕС НА <br>НОВИЙ РІВЕНЬ</h2>
+		<main>
+			<section id="about-us">
+				<div class="title-name">
+					<h2>ПРО НАС</h2>
+					<h3>ДЕТАЛЬНІША ІНФОРМАЦІЯ ПРО КОМПАНІЮ</h3>
+				</div>
 				<div class="line">
 					<div class="part-1"></div>
 					<div class="part-2"></div>
 				</div>
-				<h3>Що робить нас особливими?</h3>
-				<div class="reason-wrapper">
-					<div class="reason">
-						<img src="img/like.png" alt="особливість">
-						<h4>Інноваційні та креативні</h4>
-					</div>
-						<p>Ми не приймаємо ординарних рішень, коли мова йде про наших клієнтів</p>
-					<div class="reason">
-						<img src="img/like.png" alt="особливість">
-						<h4>Досвід та знання</h4>
-					</div>
-						<p>У нас великий досвід як у бізнесі так і у маркетингу</p>
+				<div class="about-us">
+					<article>
+						<img src="img/circle.png" alt="діаграма">
+						<h4>Маркетингова автоматизація</h4>
+						<p>Автоматизація ваших систем для збільшення продаж</p>
+					</article>
+					<article>
+						<img src="img/cap.png" alt="кепка">
+						<h4>Бізнес-рішення</h4>
+						<p>Ми пропонуєм інтелектуальні рішення для вирішення ваших проблем</p>
+					</article>
+					<article>
+						<img src="img/dollar.png" alt="долар">
+						<h4>Збільшення Вашого доходу</h4>
+						<p>Швидке зростання Вашого прибутку</p>
+					</article>
+					<article>
+						<img src="img/rocket.png" alt="ракета">
+						<h4>Маркетингові стратегії</h4>
+						<p>Впровадження перевірених стратегій маркетинг-плану</p>
+					</article>
 				</div>
-			</div>
+			</section>
 			
-		</section>
+			<section id="our-feature">
+				<div class="feature">
+					<h2>ВИВЕДІТЬ СВІЙ БІЗНЕС НА <br>НОВИЙ РІВЕНЬ</h2>
+					<div class="line">
+						<div class="part-1"></div>
+						<div class="part-2"></div>
+					</div>
+					<h3>Що робить нас особливими?</h3>
+					<div class="reason-wrapper">
+						<div class="reason">
+							<img src="img/like.png" alt="особливість">
+							<h4>Інноваційні та креативні</h4>
+						</div>
+							<p>Ми не приймаємо ординарних рішень, коли мова йде про наших клієнтів</p>
+						<div class="reason">
+							<img src="img/like.png" alt="особливість">
+							<h4>Досвід та знання</h4>
+						</div>
+							<p>У нас великий досвід як у бізнесі так і у маркетингу</p>
+					</div>
+				</div>
+				
+			</section>
+			
+			<section id="how-works">
+				<h2>ЯК ЦЕ ПРАЦЮЄ</h2>
+				<div class="line">
+					<div class="part-1"></div>
+					<div class="part-2"></div>
+				</div>
+				<div class="how-works">
+					<article>
+						<img src="img/headphone.png" alt="гарнітура">
+							<h4>Крок 1</h4>
+							<p>Ознайомлюємося з Вашим бізнесом та його особливостями</p>
+					</article>
+					<article>
+						<img src="img/lock.png" alt="замок">
+						<h4>Крок 2</h4>
+						<p>Складаємо план подальшого впровадження наших ідей</p>
+					</article>
+					<article>
+						<img src="img/cloud.png" alt="хмара">
+						<h4>Крок 3</h4>
+						<p>Застосовуємо унікальні ідеї та стратегії у Ваш бізнес</p>
+					</article>
+					<article>
+						<img src="img/hand.png" alt="рука">
+						<h4>Крок 4</h4>
+						<p>Продовжуємо працювати з Вами, поки Ви не отримаєте бажані результати</p>
+					</article>
+				</div>
+			</section>
+			
+			<section id="our-clients">
+				<h2>НАШІ КЛІЄНТИ</h2>
+				<div class="line">
+					<div class="part-1"></div>
+					<div class="part-2"></div>
+				</div>
+				<div class="reviews">
+					<div class="client">
+						<div class="image">
+							<img src="img/client1.png" alt="клієнт">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="client">
+						<div class="image">
+							<img src="img/client2.png" alt="клієнт">
+						</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
+					<div class="client">
+						<div class="image">
+							<img src="img/client3.png" alt="клієнт">
+						</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						</div>
+					<div class="client">
+						<div class="image">
+							<img src="img/client4.png" alt="клієнт">
+						</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
+				</div>
+			</section>
+			
+			<section id="social">
+				<h2>МИ У СОЦ.МЕРЕЖАХ</h2>
+				<div class="line">
+					<div class="part-1"></div>
+					<div class="part-2"></div>
+				</div>
+				<div class="social-wrapper">
+					<div class="social">
+						<img src="img/facebook.png" alt="фейсбук">
+						<a href="https://www.facebook.com/">facebook</a>
+					</div>
+					<div class="social">
+						<img src="img/telegram.png" alt="телеграм">
+						<a href="https://telegram.org/">telegram</a>
+					</div>
+					<div class="social">
+						<img src="img/instagram.png" alt="інстаграм">
+						<a href="https://www.instagram.com/">instagram</a>
+					</div>
+					<div class="social">
+						<img src="img/twitter.png" alt="твітер">
+						<a href="https://twitter.com">twitter</a>
+					</div>
+				</div>
+			</section>
+			<section id="found-us">
+				<h2>ЯК НАС ЗНАЙТИ</h2>
+				<div class="line">
+					<div class="part-1"></div>
+					<div class="part-2"></div>
+				</div>
+				<div class="found-us">
+					<div class="adress">
+						<h4>Адреса</h4>
+						<span>м. Львів</span>
+						<span>вул. Б. Хмельницького 27</span>
+						<span>r.nemyrka@gmail.com</span>
+						<span>тел. +380680557790</span>
+					</div>
+					<div class="map">
+						<script 
+								src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+								<div style='overflow:hidden;height:300px;width:300px;'>
+								<div id='gmap_canvas' style='height:300px;width:300px;'>
+								</div><div><small><a href="https://embedgooglemaps.com/fr/">
+								embedgooglemaps FR</a></small></div><div><small>
+								<a href="http://mrpromokod.ru/labirint/">
+								http://mrpromokod.ru/labirint/</a></small>
+								</div><style>#gmap_canvas img{max-width:none!important;
+								background:none!important}</style></div>
+								<script>function init_map()
+								{var myOptions = {zoom:13,center:new google.maps.LatLng
+								(49.839683,24.029717000000005),mapTypeId: 
+								google.maps.MapTypeId.ROADMAP};
+								map = new google.maps.Map(document.getElementById('gmap_canvas'), 
+								myOptions);marker = new google.maps.Marker({map: map,position: 
+								new google.maps.LatLng(49.839683,24.029717000000005)});
+								infowindow = new google.maps.InfoWindow(
+								{content:'<strong>Наша адреса</strong><br>Львов<br>'});
+								google.maps.event.addListener(marker, 'click', function()
+								{infowindow.open(map,marker);});infowindow.open(map,marker);}
+								google.maps.event.addDomListener(window, 'load', init_map);
+						</script>
+					</div>
+				</div>
+			</section>
+			<div class="bottom-form">
+				<form>
+					<div class="label">
+						<label>
+								Ім'я <input type="text" name="client-name" id="client-name" required>
+						</label>
+						<label>
+								Ел.пошта <input type="email" name="client-email" id="client-email" required>
+						</label>
+						<label>
+								Тел. <input type="tel" name="client-tel" id="client-tel" required>
+						</label>
+					</div>
+					<div class="button">
+						<button class="button-css"><a href="#">Надіслати</a></button>	
+					</div>	
+				</form>
+			</div>
+		</main>
 		
-		<section id="how-works">
-			<h2>ЯК ЦЕ ПРАЦЮЄ</h2>
-			<div class="line">
-				<div class="part-1"></div>
-				<div class="part-2"></div>
-			</div>
-			<div class="how-works">
-				<article>
-					<img src="img/headphone.png" alt="гарнітура">
-						<h4>Крок 1</h4>
-						<p>Ознайомлюємося з Вашим бізнесом та його особливостями</p>
-				</article>
-				<article>
-					<img src="img/lock.png" alt="замок">
-					<h4>Крок 2</h4>
-					<p>Складаємо план подальшого впровадження наших ідей</p>
-				</article>
-				<article>
-					<img src="img/cloud.png" alt="хмара">
-					<h4>Крок 3</h4>
-					<p>Застосовуємо унікальні ідеї та стратегії у Ваш бізнес</p>
-				</article>
-				<article>
-					<img src="img/hand.png" alt="рука">
-					<h4>Крок 4</h4>
-					<p>Продовжуємо працювати з Вами, поки Ви не отримаєте бажані результати</p>
-				</article>
-			</div>
-		</section>
-		
-		<section id="our-clients">
-			<h2>НАШІ КЛІЄНТИ</h2>
-			<div class="line">
-				<div class="part-1"></div>
-				<div class="part-2"></div>
-			</div>
-			<div class="reviews">
-				<div class="client">
-					<div class="image">
-						<img src="img/client1.png" alt="клієнт">
-					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-				</div>
-				<div class="client">
-					<div class="image">
-						<img src="img/client2.png" alt="клієнт">
-					</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-				</div>
-				<div class="client">
-					<div class="image">
-						<img src="img/client3.png" alt="клієнт">
-					</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-					</div>
-				<div class="client">
-					<div class="image">
-						<img src="img/client4.png" alt="клієнт">
-					</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-				</div>
-			</div>
-		</section>
-		
-		<section id="social">
-			<h2>МИ У СОЦ.МЕРЕЖАХ</h2>
-			<div class="line">
-				<div class="part-1"></div>
-				<div class="part-2"></div>
-			</div>
-			<div class="social-wrapper">
-				<div class="social">
-					<img src="img/facebook.png" alt="фейсбук">
-					<a href="https://www.facebook.com/">facebook</a>
-				</div>
-				<div class="social">
-					<img src="img/telegram.png" alt="телеграм">
-					<a href="https://telegram.org/">telegram</a>
-				</div>
-				<div class="social">
-					<img src="img/instagram.png" alt="інстаграм">
-					<a href="https://www.instagram.com/">instagram</a>
-				</div>
-				<div class="social">
-					<img src="img/twitter.png" alt="твітер">
-					<a href="https://twitter.com">twitter</a>
-				</div>
-			</div>
-		</section>
-		<section id="found-us">
-			<h2>ЯК НАС ЗНАЙТИ</h2>
-			<div class="line">
-				<div class="part-1"></div>
-				<div class="part-2"></div>
-			</div>
-			<div class="found-us">
-				<div class="adress">
-					<h4>Адреса</h4>
-					<span>м. Львів</span>
-					<span>вул. Б. Хмельницького 27</span>
-					<span>r.nemyrka@gmail.com</span>
-					<span>тел. +380680557790</span>
-				</div>
-				<div class="map">
-					<script 
-							src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-							<div style='overflow:hidden;height:300px;width:300px;'>
-							<div id='gmap_canvas' style='height:300px;width:300px;'>
-							</div><div><small><a href="https://embedgooglemaps.com/fr/">
-							embedgooglemaps FR</a></small></div><div><small>
-							<a href="http://mrpromokod.ru/labirint/">
-							http://mrpromokod.ru/labirint/</a></small>
-							</div><style>#gmap_canvas img{max-width:none!important;
-							background:none!important}</style></div>
-							<script>function init_map()
-							{var myOptions = {zoom:13,center:new google.maps.LatLng
-							(49.839683,24.029717000000005),mapTypeId: 
-							google.maps.MapTypeId.ROADMAP};
-							map = new google.maps.Map(document.getElementById('gmap_canvas'), 
-							myOptions);marker = new google.maps.Marker({map: map,position: 
-							new google.maps.LatLng(49.839683,24.029717000000005)});
-							infowindow = new google.maps.InfoWindow(
-							{content:'<strong>Наша адреса</strong><br>Львов<br>'});
-							google.maps.event.addListener(marker, 'click', function()
-							{infowindow.open(map,marker);});infowindow.open(map,marker);}
-							google.maps.event.addDomListener(window, 'load', init_map);
-					</script>
-				</div>
-			</div>
-		</section>
-		<div class="bottom-form">
-			<form>
-				<div class="label">
-					<label>
-							Ім'я <input type="text" name="client-name" id="client-name" required>
-					</label>
-					<label>
-							Ел.пошта <input type="email" name="client-email" id="client-email" required>
-					</label>
-					<label>
-							Тел. <input type="tel" name="client-tel" id="client-tel" required>
-					</label>
-				</div>
-				<div class="button">
-					<button><a href="#">Надіслати</a></button>	
-				</div>	
-			</form>
-		</div>
-	</main>
+		<footer>
+			<p>All contents © copyright 2014 Business Theme. All rights reserv</p>
+		</footer>
+		<div class="fix"><a href="#" class="scrollup">Наверх</a></div>
+	</div>
+
 	
-	<footer class="container">
-		<p>All contents © copyright 2014 Business Theme. All rights reserv</p>
-	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+	<script src="js/vendor/smooth-scroll.js"></script>
+	<script src="js/vendor/up-scroll.js"></script>
+	<script src="js/index.js"></script>
 
 </body>
 </html>
+
