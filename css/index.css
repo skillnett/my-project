@@ -491,7 +491,7 @@ footer p {
 }
 
 .part-2 {
-	width: 100px;
+	width: 100px; 
 	height: 8px;
 	border: 1px solid black;
 	border-radius: 0 50px 50px 0;
