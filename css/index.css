@@ -546,3 +546,72 @@ footer p {
 	font-size: 2rem;
 	font-family: 'Open Sans', sans-serif;
 }
+
+/* modal form */
+
+.modal-content {
+	background-color: rgb(214, 214, 214);
+}
+
+.modal-form {
+	margin: 20px;
+	margin-bottom: 0;
+}
+
+.modal-btn {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.modal-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 85%;
+	border-bottom: 1px solid #565656;
+}
+
+.modal-title h3 {
+	font-size: 1.2rem;
+	color: #565656;
+}
+
+.fixed {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	width: 95%;
+}
+
+.btn-primary {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	transition: all;
+    transition-duration: .6s;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+	position:fixed;
+	bottom:20px;
+}
+
+@media (max-width: 500px) {
+	.btn-primary {
+		display: none;
+	}
+}
+
+.btn-primary:hover {
+	width: 70px;
+	height: 70px;
+	color: black;
+	background-color: #fff;
+}
+
+.fa-question {
+	font-size: 35px;
+}
