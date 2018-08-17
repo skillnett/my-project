@@ -14,7 +14,7 @@ $(document).ready(function() {
 		percent: 25,
 	}).circularProgress('animate', 100, 1000);
 });
-
+  
 $(window).on('load', function () {
    var $preloader = $('#preloader');
    $preloader.delay(2000).fadeOut('slow');
