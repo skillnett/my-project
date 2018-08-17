@@ -11,10 +11,11 @@ $(document).ready(function() {
 	$('.progress-bar').circularProgress({
 		line_width: 5,
 		percent: 25,
-	}).circularProgress('animate', 100, 2000);
+	}).circularProgress('animate', 100, 1000);
 });
 
 $(window).on('load', function () {
    var $preloader = $('#preloader');
    $preloader.delay(1800).fadeOut('slow');
 });
+
