@@ -323,10 +323,17 @@ article h4 {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.social a:hover {
+.social:hover a {
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	color: #7f7f7f;
 	background-color: #F7FFFF;
+	border: 2px solid #7f7f7f;
+}
+
+.social a:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	color: #F7FFFF;
+	background-color: #7f7f7f;
 	border: 2px solid #7f7f7f;
 }
 
@@ -343,7 +350,7 @@ article h4 {
 	border-radius: 20px;
 	width: 100px;
 	font-weight: 600;
-	transition-duration: .5s;
+	transition-duration: .6s;
 }
 
 
@@ -624,6 +631,16 @@ footer p {
 	height: 70px;
 	color: black;
 	background-color: #fff;
+	animation: btn-primary .9s ease-in-out infinite;
+}
+
+@keyframes btn-primary {
+	0%, 100% {
+		transform: rotate(-20deg);
+	}
+	50% {
+		transform: rotate(21deg);
+	}
 }
 
 .fa-question {
