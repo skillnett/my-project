@@ -615,3 +615,72 @@ footer p {
 .fa-question {
 	font-size: 35px;
 }
+
+/* animate articles */
+
+article {
+	transition: all;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+article:hover {
+	border: 1px solid #828282;
+	padding: 40px 0;
+	border-radius: 10px 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.article-btn {
+	padding: 10px;
+	background: none;
+	border: 1px solid #828282;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: all;
+    transition-duration: .5s;
+    outline: none!important;
+    display: none;
+}
+
+.article-btn:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* article form */
+
+.article-form {
+	margin: 10px;
+}
+
+.article-form-title {
+	border-bottom: 1px solid #828282;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.article-form h1 {
+	font-size: 1.5rem;
+}
+
+.wrp-modal-btn {
+	display: flex;
+	justify-content: center;
+}
+
+.wrp-modal-btn button {
+	padding: 10px;
+	background: none;
+	border: 1px solid #828282;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	transition: all;
+    transition-duration: .5s;
+    outline: none;
+    width: 120px;
+}
+
+.wrp-modal-btn button:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

@@ -1,4 +1,4 @@
-// // animate background
+// animate background
 $(document).ready(function(){
 
 	particlesJS.load('particles-js', '/my-project/js/vendor/particles/particles.json', function() {
@@ -16,17 +16,22 @@ $(document).ready(function() {
 });
   
 $(window).on('load', function () {
-   var $preloader = $('#preloader');
+   let $preloader = $('#preloader');
    $preloader.delay(2000).fadeOut('slow');
 });
 
-// pop-up form
-$(".userInput").focus(function () {
-        $(this).parent().addClass("focus");
-    }).blur(function () {
-        if ($(this).val() === '') {
-            $(this).parent().removeClass("focus");
-        }
-    })
+// display article's button
+let articles = document.getElementsByTagName('article');
+for (let i = 0; i < articles.length; i++) {
+    articles[i].addEventListener('click', disp);
 
+    function disp() {
+        let articleBtn = articles[i].querySelector('.article-btn');
+        if (articleBtn.style.display === '') {
+            articleBtn.style.display = 'inline-block';
+        } else {
+        	articleBtn.style.display = '';
+        }
+    }
+}
 

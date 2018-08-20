@@ -79,25 +79,29 @@
 					<div class="part-2"></div>
 				</div>
 				<div class="about-us">
-					<article id="test">
+					<article>
 						<img src="img/circle.png" alt="діаграма">
 						<h4>Маркетингова автоматизація</h4>
 						<p>Автоматизація ваших систем для збільшення продаж</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/cap.png" alt="кепка">
 						<h4>Бізнес-рішення</h4>
 						<p>Ми пропонуєм інтелектуальні рішення для вирішення ваших проблем</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/dollar.png" alt="долар">
 						<h4>Збільшення Вашого доходу</h4>
 						<p>Швидке зростання Вашого прибутку</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/rocket.png" alt="ракета">
 						<h4>Маркетингові стратегії</h4>
 						<p>Впровадження перевірених стратегій маркетинг-плану</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 				</div>
 			</section>
@@ -137,21 +141,25 @@
 						<img src="img/headphone.png" alt="гарнітура">
 							<h4>Крок 1</h4>
 							<p>Ознайомлюємося з Вашим бізнесом та його особливостями</p>
+							<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/lock.png" alt="замок">
 						<h4>Крок 2</h4>
 						<p>Складаємо план подальшого впровадження наших ідей</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/cloud.png" alt="хмара">
 						<h4>Крок 3</h4>
 						<p>Застосовуємо унікальні ідеї та стратегії у Ваш бізнес</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 					<article>
 						<img src="img/hand.png" alt="рука">
 						<h4>Крок 4</h4>
 						<p>Продовжуємо працювати з Вами, поки Ви не отримаєте бажані результати</p>
+						<button class="article-btn" data-toggle="modal" data-target=".bd-example-modal-lg">Дізнатись більше</button>
 					</article>
 				</div>
 			</section>
@@ -290,7 +298,7 @@
 	</div>
 
 
-		<!-- modal -->
+		<!-- modal for circle-button 'Any Questions' -->
 		<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-sm">
 		    	<div class="modal-content">
@@ -316,6 +324,53 @@
 					</div>
 		    	</div>
 		  	</div>
+		</div>
+
+		<!-- modal for article buttons -->
+
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		    	<div class="article-form">
+		    		<div class="article-form-title">
+			    		<h1>Вас зацікавила наша пропозиція?</h1>
+			    		<p>Вкажіть свої дані і ми зв'яжемось з Вами протягом 10 хвилин</p>
+		    		</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Ім'я</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Ваше ім'я" aria-label="Username" aria-describedby="basic-addon1">
+					</div>
+
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" placeholder="E-mail адрес" aria-label="Recipient's username" aria-describedby="basic-addon2">
+						<div class="input-group-append">
+							<span class="input-group-text" id="basic-addon2">@example.com</span>
+						</div>
+					</div>
+
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Номер телефону</span>
+						</div>
+						<input type="text" class="form-control" placeholder="+380" aria-label="Username" aria-describedby="basic-addon1">
+					</div>
+
+					<label for="basic-url">Що саме Вас зацікавило?</label>
+
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text">Напишіть нам</span>
+						</div>
+						<textarea class="form-control" aria-label="With textarea"></textarea>
+					</div>
+					<div class="wrp-modal-btn">
+						<button>Надіслати</button>
+					</div>
+			    </div>
+		    </div>
+		  </div>
 		</div>
 	
 
