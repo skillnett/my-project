@@ -314,6 +314,20 @@ article h4 {
 	text-align: center;
 	flex-basis: 200px;
 	padding: 20px;
+	transition-duration: .5s;
+}
+
+.social:hover {
+	border: 1px solid #828282;
+	border-radius: 10px 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.social a:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	color: #7f7f7f;
+	background-color: #F7FFFF;
+	border: 2px solid #7f7f7f;
 }
 
 .social img {
@@ -328,8 +342,8 @@ article h4 {
 	border: 1px solid black;
 	border-radius: 20px;
 	width: 100px;
-	text-transform: uppercase;
 	font-weight: 600;
+	transition-duration: .5s;
 }
 
 
